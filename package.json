@@ -1,16 +1,16 @@
 {
-  "name": "@uniswap/sdk",
+  "name": "@sashimi/sdk",
   "license": "MIT",
-  "version": "3.0.3",
-  "description": "🛠 An SDK for building applications on top of Uniswap.",
+  "version": "1.0.0-kovan",
+  "description": "🛠 An SDK for building applications on top of Sashimiswap, forked with @uniswap/sdk.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/Uniswap/uniswap-sdk.git",
+  "repository": "https://github.com/SashimiProject/sashimiswap-sdk",
   "keywords": [
-    "uniswap",
+    "sashimi",
     "ethereum"
   ],
   "module": "dist/sdk.esm.js",

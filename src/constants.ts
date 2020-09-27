@@ -23,10 +23,10 @@ export enum Rounding {
 }
 
 // todo: change factory address
-export const FACTORY_ADDRESS = '0x42Af4E7b20a1aD97D8CFd7585CAd5b50c34D294e'
+export const FACTORY_ADDRESS = '0xf028f723ed1d0fe01cc59973c49298aa95c57472'
 
 // todo: change code hash
-export const INIT_CODE_HASH = '0x22e737f96a61b7870b3f1163114ebd889522c2e3b977ecee134eae3aa0d6742d'
+export const INIT_CODE_HASH = '0xb465bbe4edb8c9b0da8ff0b2b36ce0065de9fcd5a33f32c6856ea821779c8b72'
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
 

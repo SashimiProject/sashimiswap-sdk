@@ -25,7 +25,7 @@ export enum Rounding {
 }
 
 // todo: change factory address
-export const FACTORY_ADDRESS = '0xedc5afc55749cbb602e4d7100cfb524705a45140'
+export const FACTORY_ADDRESS = '0xc28e27870558cf22add83540d2126da2e4b464c2'
 
 // todo: change code hash
 export const INIT_CODE_HASH = '0x82d3a0572185914ce491d5230dc8fe345fc1e7e8d0b15ce66c97bfa8f1349061'

@@ -56,7 +56,7 @@ export function currencyEquals(currencyA: Currency, currencyB: Currency): boolea
   }
 }
 
-export const WETH = {
+export const WHT = {
   [ChainId.MAINNET]: new Token(
     ChainId.MAINNET,
     '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
@@ -79,5 +79,19 @@ export const WETH = {
     'Wrapped Ether'
   ),
   [ChainId.GÖRLI]: new Token(ChainId.GÖRLI, '0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6', 18, 'WETH', 'Wrapped Ether'),
-  [ChainId.KOVAN]: new Token(ChainId.KOVAN, '0xA050886815CFc52a24B9C4aD044ca199990B6690', 18, 'WETH', 'Wrapped Ether')
+  [ChainId.KOVAN]: new Token(ChainId.KOVAN, '0xA050886815CFc52a24B9C4aD044ca199990B6690', 18, 'WETH', 'Wrapped Ether'),
+  [ChainId.HECO]: new Token(
+    ChainId.HECO,
+    '0x5545153ccfca01fbd7dd11c0b23ba694d9509a6f',
+    18,
+    'WHT',
+    'Wrapped HT'
+  ),
+  [ChainId.THECO]: new Token(
+    ChainId.THECO,
+    '0x5b2da6f42ca09c77d577a12bead0446148830687',
+    18,
+    'WHT',
+    'Wrapped HT'
+  )
 }

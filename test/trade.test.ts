@@ -1,7 +1,7 @@
 import JSBI from 'jsbi'
 import {
   ChainId,
-  ETHER,
+  HT,
   CurrencyAmount,
   Pair,
   Percent,

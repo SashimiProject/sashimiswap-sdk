@@ -1,4 +1,4 @@
-import { Token, WETH, ChainId, Pair, TokenAmount, Route, ETHER } from '../src'
+import { Token, WETH, ChainId, Pair, TokenAmount, Route, HT } from '../src'
 
 describe('Route', () => {
   const token0 = new Token(ChainId.MAINNET, '0x0000000000000000000000000000000000000001', 18, 't0')

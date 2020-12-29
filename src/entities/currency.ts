@@ -16,10 +16,10 @@ export class Currency {
   /**
    * The only instance of the base class `Currency`.
    */
-  public static readonly ETHER: Currency = new Currency(18, 'ETH', 'Ether')
+  public static readonly HT: Currency = new Currency(18, 'HT', 'HuobiToken')
 
   /**
-   * Constructs an instance of the base class `Currency`. The only instance of the base class `Currency` is `Currency.ETHER`.
+   * Constructs an instance of the base class `Currency`. The only instance of the base class `Currency` is `Currency.HT`.
    * @param decimals decimals of the currency
    * @param symbol symbol of the currency
    * @param name of the currency
@@ -33,5 +33,5 @@ export class Currency {
   }
 }
 
-const ETHER = Currency.ETHER
-export { ETHER }
+const HT = Currency.HT
+export { HT }

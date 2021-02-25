@@ -93,5 +93,19 @@ export const WHT = {
     18,
     'WHT',
     'Wrapped HT'
-  )
+  ),
+  [ChainId.BSC]: new Token(
+    ChainId.BSC,
+    '0x5545153ccfca01fbd7dd11c0b23ba694d9509a6f',
+    18,
+    'WBNB',
+    'Wrapped BNB'
+  ),
+  [ChainId.TBSC]: new Token(
+    ChainId.TBSC,
+    '0xae13d989dac2f0debff460ac112a837c89baa7cd',
+    18,
+    'WBNB',
+    'Wrapped BNB'
+  ),
 }

@@ -16,7 +16,7 @@ export class Currency {
   /**
    * The only instance of the base class `Currency`.
    */
-  public static readonly HT: Currency = new Currency(18, 'HT', 'HuobiToken')
+  public static readonly HT: Currency = new Currency(18, 'BNB', 'BNB')
 
   /**
    * Constructs an instance of the base class `Currency`. The only instance of the base class `Currency` is `Currency.HT`.

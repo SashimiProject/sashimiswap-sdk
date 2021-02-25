@@ -9,8 +9,10 @@ export enum ChainId {
   RINKEBY = 4,
   GÖRLI = 5,
   KOVAN = 42,
-  HECO= 128,
-  THECO= 256
+  HECO = 128,
+  THECO = 256,
+  BSC = 56,
+  TBSC = 97
 }
 
 export enum TradeType {
@@ -25,10 +27,10 @@ export enum Rounding {
 }
 
 // todo: change factory address
-export const FACTORY_ADDRESS = '0xc28e27870558cf22add83540d2126da2e4b464c2'
+export const FACTORY_ADDRESS = '0x5240870cc7a4e28ee7a79cf77d0df69957b92da2'
 
 // todo: change code hash
-export const INIT_CODE_HASH = '0x82d3a0572185914ce491d5230dc8fe345fc1e7e8d0b15ce66c97bfa8f1349061'
+export const INIT_CODE_HASH = '0xcb0ed20422ca9f2fcfecbd33139a767ddd5f7e9e7936d495f639ef0ac4e78fb8'
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
 

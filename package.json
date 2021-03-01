@@ -1,7 +1,7 @@
 {
   "name": "@sashimiswap/sdk",
   "license": "MIT",
-  "version": "1.0.4-bsc",
+  "version": "1.0.5-bsc",
   "description": "🛠 An SDK for building applications on top of Sashimiswap, forked with @uniswap/sdk.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",

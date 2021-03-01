@@ -13,7 +13,9 @@ export class Currency {
   public readonly symbol?: string
   public readonly name?: string
 
+
   /**
+   * todo: native token info
    * The only instance of the base class `Currency`.
    */
   public static readonly HT: Currency = new Currency(18, 'BNB', 'BNB')

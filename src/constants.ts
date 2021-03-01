@@ -3,6 +3,7 @@ import JSBI from 'jsbi'
 // exports for external consumption
 export type BigintIsh = JSBI | bigint | string
 
+// todo: 需要修改的链ID
 export enum ChainId {
   MAINNET = 1,
   ROPSTEN = 3,

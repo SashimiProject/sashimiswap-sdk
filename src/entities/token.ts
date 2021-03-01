@@ -56,6 +56,7 @@ export function currencyEquals(currencyA: Currency, currencyB: Currency): boolea
   }
 }
 
+// todo: 多链下原生token，wrapped token信息，注意小写
 export const WHT = {
   [ChainId.MAINNET]: new Token(
     ChainId.MAINNET,
